@@ -7,8 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
-
+    background: linear-gradient(to right, #e13e70, #00a1e4); /* Pinkish-purple gradient */
 }
 
 .calculator-grid {
@@ -22,15 +21,16 @@ body {
 
 .calculator-grid > button {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.8rem; /* Adjusted font size */
     border: 1px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 192, 203, 0.8); /* Light pink background */
 }
 
 .calculator-grid > button:hover {
-    background-color:  rgba(255, 255, 255, .9);
+    background-color: rgba(255, 192, 203, 1); /* Darker pink background on hover */
 }
+
 
 .span-two {
     grid-column: span 2;
