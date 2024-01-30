@@ -24,9 +24,9 @@ class Calculator {
         if(this.previousOperand !== ''){
             this.compute()
         }
-        this.operationn = operation 
-        this.previousOperand = this.currentOperand
-        this.currentOperand = ''
+        this.operation = operation; // Fix the typo here
+        this.previousOperand = this.currentOperand;
+        this.currentOperand = '';
     }
 
     compute() {
